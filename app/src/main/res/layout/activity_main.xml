@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yazdaniscodelab.firebasesimplenewproject.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextbackground"
+        android:padding="10dp"
+        android:id="@+id/edittext_name"
+        android:layout_margin="5dp"
+        android:hint="Type name...."
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:padding="10dp"
+        android:id="@+id/spinner_id_xml"
+        android:entries="@array/genres"
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="Add"
+        android:id="@+id/add_item_btn"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/listview_xml"
+        android:layout_margin="10dp"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

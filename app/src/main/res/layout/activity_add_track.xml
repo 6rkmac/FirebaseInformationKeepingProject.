@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_track"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="yazdaniscodelab.firebasesimplenewproject.AddTrackActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:id="@+id/textViewartisname"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextbackground"
+        android:padding="10dp"
+        android:id="@+id/edittextTrack_name"
+        android:layout_margin="1dp"
+        android:hint="Type Track name...."
+        />
+    <SeekBar
+        android:layout_width="match_parent"
+        android:max="50"
+        android:id="@+id/seekBarRating"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:text="Add"
+        android:id="@+id/buttonaddartist"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/listview_xml"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

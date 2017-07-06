@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#943126"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/text_update_xml"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/edittextbackground"
+        android:padding="15dp"
+        android:textColorHint="@android:color/white"
+        android:id="@+id/update_edittext_id"
+        android:hint="Update Name..."
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="20dp"
+        android:id="@+id/spinner_id_xml"
+        android:entries="@array/genres"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:text="Update"
+        android:id="@+id/updatedata_btn_xml"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:textAppearanceLarge"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:id="@+id/delet_btn_xml"
+        android:text="Delete"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_purple"
+        />
+
+</LinearLayout>

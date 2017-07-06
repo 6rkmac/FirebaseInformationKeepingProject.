@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FirebaseSimpleNewProject</string>
+
+
+    <string-array name="genres">
+
+        <item>Rock</item>
+        <item>Fok</item>
+        <item>Pop</item>
+        <item>Jari</item>
+    </string-array>
+
+
+</resources>
