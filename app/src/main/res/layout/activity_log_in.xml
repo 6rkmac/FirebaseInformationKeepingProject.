@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_login"
     android:orientation="vertical"
-    android:background="#FFEA7A12"
+    android:background="#ea6812"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LogInActivity">
@@ -22,7 +22,6 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -67,8 +66,6 @@
                 android:textColor="@android:color/black"
                 android:textAppearance="?android:textAppearanceSmall"
                 />
-
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

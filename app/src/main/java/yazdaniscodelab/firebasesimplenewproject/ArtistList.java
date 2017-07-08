@@ -8,8 +8,6 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-import java.text.DateFormat;
-import java.util.Date;
 import java.util.List;
 
 /**
@@ -37,11 +35,8 @@ public class ArtistList extends ArrayAdapter<Artist> {
         View listViewItem=inflater.inflate(R.layout.list_layout,null,true);
         TextView textViewName=(TextView)listViewItem.findViewById(R.id.name_xml);
         TextView textViewGenre=(TextView)listViewItem.findViewById(R.id.genre_xml);
-
         TextView date = (TextView)listViewItem.findViewById(R.id.txtDate);
-
         Artist artist=artistList.get(position);
-
         textViewName.setText(artist.getArtistName());
         textViewGenre.setText(artist.getArtistGenre());
         date.setText(artist.getmDate());
